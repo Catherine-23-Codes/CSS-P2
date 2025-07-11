@@ -1,0 +1,17 @@
+.login,
+.register {
+  background-color: rgb(160, 255, 255);
+  color: black;
+}
+
+* {
+  font-family: "Courier New";
+}
+h1 {
+  color: #1b74e4;
+}
+
+#searchbutton {
+  color: white;
+  background-color: black;
+}

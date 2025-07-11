@@ -1,0 +1,94 @@
+/* 1) Universal selector tag*/
+* {
+  font-family: "Courier New";
+}
+
+/*2) Element selector*/
+p {
+  color: orange;
+}
+
+h1 {
+  color: #f52936;
+}
+
+/* 2.1) Element selector for multiple elem at once*/
+h3,
+p {
+  color: rgb(36, 171, 36);
+  font-family: Cambria;
+}
+
+/* 3)Id selector */
+#login {
+  color: yellow;
+  background-color: black;
+}
+
+#signup {
+  color: white;
+  background-color: black;
+}
+
+/* 4) class selector */
+.upvote {
+  color: orangered;
+  background-color: rgb(241, 207, 165);
+  font-size: 14px;
+}
+
+/* 5) anchor tags inside paragraph tags */
+p a {
+  color: rgb(140, 14, 149);
+  background-color: rgb(112, 193, 174);
+}
+
+/* 5.1) Only for anchor tags*/
+a {
+  color: yellow;
+  background-color: red;
+}
+.post a {
+  color: rgb(125, 125, 210);
+  background-color: orange;
+}
+
+nav ul li {
+  color: yellow;
+  background-color: violet;
+}
+
+/* COMBINATOR TYPES */
+
+/* 1) SIBILING COMBINATOR */
+
+p + h3 {
+  color: magenta;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+.upvote + button {
+  color: maroon;
+  background-color: rgb(178, 228, 234);
+  font-size: 18px;
+}
+
+/* 2) descendant combinator */
+div > input {
+  color: brown;
+  background-color: rgb(238, 241, 156);
+}
+
+/* 6)Attribute selector== for specific attriutes */
+input[type="text"] {
+  color: red;
+}
+
+input[type="password"] {
+  color: green;
+}
+
+input[type] {
+  background-color: ghostwhite;
+}

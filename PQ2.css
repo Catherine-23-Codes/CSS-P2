@@ -1,0 +1,14 @@
+/* Method 1*/
+#myId p {
+  color: rgb(59, 225, 92);
+}
+
+/* Method 2 */
+div[id="myId2"] p {
+  color: rgb(185, 185, 13);
+}
+
+/* Method 3 */
+#myId3 {
+  color: pink;
+}
